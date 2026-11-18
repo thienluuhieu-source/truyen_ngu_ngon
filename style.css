@@ -1,0 +1,32 @@
+h1 {
+border: 3px double #9ff39c ;
+color: #df631b;
+text-align: center;
+}
+body {
+    font: 16px ;
+    font-family: 'Times New Roman', Times, serif ;
+}
+p {
+    margin-right: 20px;
+}
+.opening::first-letter {
+    color: #32f72b;
+    font-size: 50px;
+    font-style: italic;
+}
+.balao {
+    float: right;
+    box-shadow: 3px 4px 3px grey;
+    object-fit: fill;
+}
+.thitcuu {
+    float: left;
+    margin: 0 20px 10px 0;
+    object-fit: fill;
+}
+.highlight {
+    background-color: #df631b;
+    font-style: italic;
+    text-decoration: underline;
+}
